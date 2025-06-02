@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amateur Rocketry | Vedant Tyagi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top-Left Logo -->
+  <a href="index.html" class="logo-absolute">
+    <img src="vedant.jpg" alt="Home Logo" class="profile-logo-small">
+  </a>
+
+  <div class="rocketry-header">
+    <h1>Amateur Rocketry</h1>
+  </div>
+
+
+  <!-- Full-page Rocketry Layout -->
+  <main class="rocketry-fullpage">
+    
+    <!-- Timeline (Left Side) -->
+    <div class="fullpage-timeline">
+      <div class="timeline-entry" onclick="showContent('joined')">Sep 2023: First Rocket</div>
+      <div class="timeline-entry" onclick="showContent('mpr')">May 2024: MPR Certification Complete</div>
+      <div class="timeline-entry" onclick="showContent('carbon')">Feb 2024: Team Carbon Rocket</div>
+      <div class="timeline-entry" onclick="showContent('machining')">June-July 2024: Machining Course</div>
+      <div class="timeline-entry" onclick="showContent('l1')">August 2024: L1 Certification Complete</div>
+      <div class="timeline-entry" onclick="showContent('l2')">Now: L2 Certification Build</div>
+    </div>
+
+    <!-- Content (Right Side) -->
+    <div class="timeline-content" id="timeline-display">
+      <h1>Amateur Rocketry</h1>
+      <h2 style="font-weight: 300;">Timeline & Milestones</h2>
+      <p>Select a milestone from the timeline to view its details.</p>
+    </div>
+  </main>
+
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+</html>
